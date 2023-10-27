@@ -60,7 +60,8 @@ header {
 }
 
 .container {
-    width: 360px;
+    width: 100%;
+    max-width: 600px;
     margin: auto;
 }
 
@@ -93,6 +94,8 @@ header {
     font-weight: 800;
     font-family: 'Raleway', sans-serif; 
     text-align: center;
+    display: block;
+    margin: auto;
 }
 
 .add-btn {
@@ -111,7 +114,8 @@ header {
 
 .add-btn:hover,
 .add-btn:focus {
-    background-color: #df3535;
+    /* background-color: #df3535; */
+    background: linear-gradient(90deg, #ce2e2e, #ff564a);
     cursor: pointer;
 }
 
@@ -138,5 +142,5 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: right;
+    text-align: left;
 }
